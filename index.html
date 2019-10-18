@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Fitness IARF</title>
+  <!-- link rel="apple-touch-icon" sizes="57x57" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="60x60" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="72x72" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="76x76" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="114x114" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="120x120" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="144x144" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="152x152" href="" -->
+  <!-- link rel="apple-touch-icon" sizes="180x180" href="" -->
+  <!-- link rel="icon" type="image/png" sizes="192x192" href="" -->
+  <!-- link rel="icon" type="image/png" sizes="32x32" href="" -->
+  <!-- link rel="icon" type="image/png" sizes="96x96" href="" -->
+  <!-- link rel="icon" type="image/png" sizes="16x16" href="" -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  <script src="https://kit.fontawesome.com/f5931a4242.js" crossorigin="anonymous"></script>-->
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+  <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+  <link rel="stylesheet" type="text/css" href="css/lib/dropzone.css"/>
+  <link rel="stylesheet" type="text/css" href="css/lib/floating-wpp.min.css"/>
+
+  <script>
+      var BASE_PATH = "http://www.iarf-fitness.com.ar/";
+  </script>
+
+  <!-- jQuery js -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+
+<header class="header header-v2 light-header stricky">
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12 pull-right">
+          <div class="top-info">
+            <div class="clearfix">
+              <ul class="contact-info pull-left">
+                <!-- li>
+                  <span><a href="/alumnos.html" title="Acceso para alumnos" rel="nofollow">
+                    <i class="fa fa-university"></i> Acceso Alumnos
+                  </a></span>
+                </li -->
+                <!-- li>
+                  <span><a href="/pagar.html" title="Formulario de pago online">
+                    <i class="fa fa-dollar"></i> Pagar online
+                  </a></span>
+                </li -->
+                <li>
+                  <span><a href="cursos.html" title="Acceso a cursos">
+                    <i class="fa fa-user"></i> Cursos presenciales
+                  </a></span>
+                </li>
+                <li>
+                  <span><a href="https://wa.me/54911-IARF" title="Acceso a alumnos">
+                    <i class="fa fa-whatsapp"></i> Envianos un WhatsApp
+                  </a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-menu-wrapper ">
+    <div class="container">
+      <nav class="navigation clearfix">
+        <div id="menuzord" class="menuzord">
+          <a href="https://www.iarf-fitness.com.ar/" class="menuzord-brand">
+            <img src="images/logo.png" alt="Instituto de Alto Rendimiento Físico" id="skin-logo-img"/>
+          </a>
+          <ul class="menuzord-menu">
+            <li>
+              <a href="/nosotros.html" class="flip-flop-btn"><span data-hover="Nosotros">Nosotros</span></a>
+            </li>
+            <li>
+              <a href="/cursos-presenciales.html" class="flip-flop-btn">
+                <span data-hover="Cursos Presenciales">Cursos Presenciales</span>
+              </a>
+              <ul class="dropdown">
+                <li><a href="/entrenamiento-funcional.html">ENTRENAMIENTO FUNCIONAL</a></li>
+                <li>
+                  <a href="/fitness-dance-reggaeton-latino-pop-dance-axe.html">FITNESS DANCE (Reggaeton, Latino, Pop Dance, Axe)</a>
+                </li>
+                <li><a href="/fitness-de-combate.html">FITNESS DE COMBATE</a></li>
+                <li><a href="/indoor-cycling.html">INDOOR CYCLING</a></li>
+                <li>
+                  <a href="/nutricion-deportiva-y-alimentacion-saludable.html">NUTRICIÓN DEPORTIVA Y ALIMENTACIÓN SALUDABLE</a></li>
+                <li>
+                  <a href="/personal-trainer-y-musculacion.html">PERSONAL TRAINER Y MUSCULACIÓN</a></li>
+                <li><a href="/pole-dance.html">POLE DANCE</a>
+                </li>
+                <li>
+                  <a href="/power-local-gap-localizada-con-barra-circuitos-localizados.html">POWER LOCAL (GAP, Localizada con barra, Circuitos Localizados)</a></li>
+                <li><a href="/preparador-fisico-de-futbol.html">PREPARADOR FÍSICO DE FÚTBOL</a></li>
+                <li><a href="/salsa-y-bachata.html">SALSA Y BACHATA</a></li>
+                <li><a href="/stretching.html">STRETCHING</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/cursos-a-distancia.html" class="flip-flop-btn">
+                <span data-hover="Cursos a Distancia">Cursos a Distancia</span>
+              </a>
+              <ul class="dropdown">
+                <li><a href="/curso-de-nutricion-deportiva.html">Curso de Nutrición Deportiva</a></li>
+                <li>
+                  <a href="/estetica-y-composicion-corporal.html">Estética y Composición corporal</a></li>
+                <li>
+                  <a href="/instructor-de-fitness-dance-reggaeton-latino-pop-dance-y-axe.html">
+                    Instructor de Fitness Dance (Reggaetón, Latino, Pop Dance y Axé)
+                  </a>
+                </li>
+                <li><a href="/instructor-de-indoor-cycling.html">Instructor de Indoor Cycling</a></li>
+                <li>
+                  <a href="/instructor-en-entrenamiento-funcional-especialista-en-hiit.html">
+                    Instructor en Entrenamiento Funcional Especialista en HIIT
+                  </a>
+                </li>
+                <li>
+                  <a href="/instructor-en-musculacion-y-personal-trainer.html">
+                    Instructor en Musculación y Personal Trainer
+                  </a>
+                </li>
+                <li><a href="/preparador-fisico-en-futbol.html">Preparador Físico en Fútbol</a></li>
+                <li>
+                  <a href="/taller-de-comida-saludable-nutrifit.html">Taller de Comida saludable NUTRIFIT</a></li>
+                <li>
+                  <a href="/taller-de-especializacion-en-entrenamiento-abdominal.html">
+                    Taller de Especialización en Entrenamiento Abdominal
+                  </a>
+                </li>
+                <li><a href="/workshop-de-kettlebell.html">Workshop de Kettlebell</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/galeria.html" class="flip-flop-btn"><span data-hover="Galería">Galería</span></a>
+            </li>
+            <li><a href="/contacto.html" class="flip-flop-btn"><span data-hover="Contáctenos">Contáctenos</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div><!-- /.header-menu-wrapper -->
+
+  <div class="search-box collapse" id="search-box">
+    <div class="container">
+      <form action="#">
+        <input type="text" placeholder="Escriba lo que desea buscar...">
+      </form>
+    </div>
+  </div>
+</header>
+
+<section class="rev_slider_wrapper">
+  <div id="slider1" class="rev_slider" data-version="5.0">
+    <ul>
+      <li data-transition="random">
+        <img src="images/slider/1-4.jpg" alt="" width="1920"
+             height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
+        <div class="tp-caption tp-resizeme banner-caption-h1" data-x="center" data-hoffset="0" data-y="top"
+             data-voffset="385" data-transform_idle="o:1;"
+             data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+             data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none" data-start="500">
+          Docencia
+        </div>
+        <div class="tp-caption  tp-resizeme banner-caption-h1" data-x="center" data-hoffset="0" data-y="top"
+             data-voffset="480" data-transform_idle="o:1;"
+             data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+             data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
+             data-responsive_offset="on" data-start="1500">
+          Investigación & Vanguardia
+        </div>
+        <div class="tp-caption tp-resizeme banner-caption-h1-large banner-caption-bg" data-x="center" data-hoffset="0"
+             data-y="top" data-voffset="570" data-transform_idle="o:1;"
+             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
+             data-splitout="none" data-responsive_offset="on" data-start="2000">
+          <span><img src="images/title-decor.png"
+                     alt=""> IARF FITNESS</span>
+        </div>
+      </li>
+      <li data-transition="random">
+        <img src="images/slider/1-2.jpg" alt="" width="1920"
+             height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2">
+        <div class="tp-caption tp-resizeme banner-caption-h1" data-x="right" data-hoffset="0" data-y="top"
+             data-voffset="385" data-transform_idle="o:1;"
+             data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+             data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none" data-start="500">
+          Empresa
+        </div>
+        <div class="tp-caption  tp-resizeme banner-caption-h1" data-x="right" data-hoffset="0" data-y="top"
+             data-voffset="480" data-transform_idle="o:1;"
+             data-transform_in="x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+             data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
+             data-responsive_offset="on" data-start="1000">
+          Líder
+        </div>
+        <div class="tp-caption  tp-resizeme banner-caption-h1-large banner-caption-bg" data-x="right" data-hoffset="15"
+             data-y="top" data-voffset="570" data-transform_idle="o:1;"
+             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
+             data-splitout="none" data-responsive_offset="on" data-start="1500">
+          <span><img src="images/title-decor.png"
+                     alt=""> IARF FITNESS</span>
+        </div>
+      </li>
+      <li data-transition="random" class="slider-3">
+        <img src="images/slider/1-3.jpg" alt="" width="1920"
+             height="705" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3">
+        <div class="tp-caption tp-resizeme banner-caption-h1 banner-caption-bg" data-x="left" data-hoffset="15"
+             data-y="top" data-voffset="340" data-transform_idle="o:1;"
+             data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
+             data-splitout="none" data-responsive_offset="on" data-start="500">
+          <span>Trayectoria y Experiencia</span>
+        </div>
+
+        <div class="tp-caption  tp-resizeme banner-caption-h1-large banner-caption-bg" data-x="right" data-hoffset="15"
+             data-y="top" data-voffset="570" data-transform_idle="o:1;"
+             data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+             data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
+             data-splitout="none" data-responsive_offset="on" data-start="1500">
+          <span><img src="images/title-decor.png"
+                     alt=""> IARF FITNESS</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- fin sección cursos a distancia -->
+<section class="fitness-care-gym-area fix">
+  <div class="container">
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span>Elegí como queres estudiar</span></h1>
+    </div>
+    <div class="row">
+      <!--Start single item-->
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <h3>Cursos a Distancia</h3>
+            <a href="cursos-a-distancia.html" title="Cursos a Distancia">
+              <img src="images/banner_distancia.jpg"
+                   class="img-responsive"></a>
+            <p>Estudiá con los mejores profesionales sin moverte de tu casa.</p>
+            <div class="button">
+              <a class="pull-left black arrow-push-in-right" href="cursos-a-distancia.html" title="Cursos a Distancia">
+                <span>Mas info <i class="fa fa-caret-right"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End single item-->
+      <!--Start single item-->
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <h3>Cursos Presenciales</h3>
+            <a href="cursos-presenciales.html" title="Cursos Presenciales">
+              <img src="images/banner_presencial.jpg"
+                   class="img-responsive"></a>
+            <p>Te esperamos en cualquiera de nuestras tres sucursales y las mejores clases presenciales</p>
+            <div class="button">
+              <a class="pull-left black arrow-push-in-right"
+                 href="cursos-presenciales.html" title="Cursos Presenciales">
+                <span>Mas info <i class="fa fa-caret-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End single item-->
+    </div>
+  </div>
+</section>
+
+<!--Start footer area-->
+<footer class="footer-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="single-footer-widget">
+          <ul class="contact">
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-whatsapp"></i>
+              </div>
+              <div class="text">
+                <p><a href="https://wa.me/+54911-IARF">54911-IARF</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <p>iarf@gmail.com</p>
+              </div>
+            </li>
+            <li>
+              <div class="social-links">
+                <a class="icon-holder" href="https://www.facebook.com/iarf/" target="_blank"><i
+                        class="fa fa-facebook"></i></a>
+                <a class="icon-holder" href="https://www.instagram.com/cursosfitness.distancia/" target="_blank"><i
+                        class="fa fa-instagram"></i></a>
+              </div>
+            </li>
+          </ul>
+          <h3 class="title">Instituto Distancia</h3>
+        </div>
+      </div>
+      <!--Start single footer widget-->
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="single-footer-widget">
+          <h3 class="title">IARF Lomas</h3>
+          <ul class="contact">
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <p>
+                  Laprida 19, 1er piso<br>Lomas de Zamora<br>
+                  Buenos Aires, Argentina
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-whatsapp"></i>
+              </div>
+              <div class="text">
+                <p><a href="https://wa.me/+54911-IARF">54911-IARF</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <p>email@IARF.com.ar</p>
+              </div>
+            </li>
+            <li>
+              <div class="social-links">
+                <a class="icon-holder" href="https://www.facebook.com/iarf-fitness/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-holder" href="https://www.instagram.com/iarf/" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--End single footer widget-->
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="single-footer-widget">
+          <h3 class="title">IARF Wilde</h3>
+          <ul class="contact">
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <p>Av. Gral Belgrano 5960<br>Wilde<br>
+                  Buenos Aires, Argentina</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-whatsapp"></i>
+              </div>
+              <div class="text">
+                <p><a href="https://wa.me/+54911-IARF">54911-IARF</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <p>email@IARF.com.ar</p>
+              </div>
+            </li>
+            <li>
+              <div class="social-links">
+                <a class="icon-holder" href="https://www.facebook.com/IARF-facebook/" target="_blank">
+                  <i class="fa fa-facebook"></i></a>
+                <a class="icon-holder" href="https://www.instagram.com/IARF-IG/" target="_blank">
+                  <i class="fa fa-instagram"></i></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Start single footer widget-->
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="single-footer-widget">
+          <h3 class="title">IARF Ramos</h3>
+          <ul class="contact">
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text">
+                <p>
+                  Gral. Ardoino 430<br>Ramos Mejía<br>
+                  Buenos Aires, Argentina
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-whatsapp"></i>
+              </div>
+              <div class="text">
+                <p><a href="https://wa.me/+54911-IARF">54911-IARF</a></p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-holder">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text">
+                <p>remail@IARF.com.ar</p>
+              </div>
+            </li>
+            <li>
+              <div class="social-links">
+                <a class="icon-holder" href="https://www.facebook.com/IARF/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a class="icon-holder" href="https://www.instagram.com/IARF-IG/" target="_blank">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row footer-aux-links">
+      <div class="col-xs-12 text-center">
+        <a href="https://www.iarf-fitness.com.ar/" target="_blank">Acerca de IARF</a>
+        <a href="/docs/terminos-y-condiciones.pdf" target="_blank">Términos y condiciones</a>
+        <a href="/docs/privacidad.pdf" target="_blank">Política de privacidad</a>
+        <a href="/contacto.html" target="_blank">Contáctenos</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--End footer area-->
+<!--Start footer bottom area-->
+<section class="footer-bottom-area">
+  <div class="container ">
+    <div class="footer-bottom">
+      <div class="clearfix">
+        <div class="pull-left">
+          <div class="copy-right">
+            <p>© 2019 IARF Fitness</p>
+          </div>
+        </div>
+        <div class="pull-right">
+        </div>
+        <div class="pull-right">
+          <div class="copy-right">
+            <p><a href="http://www.xinergia.com.ar" target="_blank" class=" powered">Desarrollado por Xinergia</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.footer-bottom -->
+  </div>
+</section>
+<!--End footer bottom area-->
+
+<!--WhatsApp de IARF -->
+<div class="floating-wpp"></div>
+<script>
+    $(function () {
+        $('.floating-wpp').floatingWhatsApp({
+            phone: '+54911aldana',
+            popupMessage: 'Mensaje desde la Web',
+            showPopup: true,
+            message: '',
+            headerTitle: 'Aldana WhatsApp'
+        });
+    });
+</script>
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!-- bootstrap js -->
+<script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js"></script>
+<!-- jQuery ui js -->
+<script defer src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.4/jquery-ui.min.js"></script>
+<!-- owl carousel js -->
+<script defer src="/js/owl.carousel.min.js"></script>
+<!-- jQuery validation -->
+<script defer src="/js/jquery.validate.min.js"></script>
+
+<!-- mixit up -->
+<script defer src="js/jquery.mixitup.min.js"></script>
+<script defer src="js/jquery.fitvids.js"></script>
+<!-- revolution slider js -->
+<script defer src="js/jquery.themepunch.tools.min.js"></script>
+<script defer src="js/jquery.themepunch.revolution.min.js"></script>
+<script defer src="js/revolution.extension.actions.min.js"></script>
+<script defer src="js/revolution.extension.carousel.min.js"></script>
+<script defer src="js/revolution.extension.kenburn.min.js"></script>
+<script defer src="js/revolution.extension.layeranimation.min.js"></script>
+<script defer src="js/revolution.extension.migration.min.js"></script>
+<script defer src="js/revolution.extension.navigation.min.js"></script>
+<script defer src="js/revolution.extension.parallax.min.js"></script>
+<script defer src="js/revolution.extension.slideanims.min.js"></script>
+<script defer src="js/revolution.extension.video.min.js"></script>
+<!-- fancy box -->
+<script defer src="js/jquery.fancybox.pack.js"></script>
+<script defer src="js/jquery.polyglot.language.switcher.js"></script>
+<script defer src="js/nouislider.js"></script>
+<script defer src="js/jquery.bootstrap-touchspin.js"></script>
+<script defer src="js/jquery.appear.js"></script>
+<script defer src="js/jquery.countTo.js"></script>
+<script defer src="js/menuzord.js"></script>
+<script defer src="js/bootstrap-select.min.js"></script>
+<script defer src="js/jquery.isotope.js"></script>
+<!-- waypoints js -->
+<script defer src="js/waypoint.js"></script>
+
+<!-- theme custom js  -->
+<script defer type="text/javascript" src="js/spin.min.js"></script>
+<script defer type="text/javascript" src="js/jquery.spin.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/x_functions.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/x_form.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/x_crypt.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/x_authentification.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/x_string.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/x_ajax.js"></script>
+<script type="text/javascript" charset="ISO-8859-1"src="js/bootbox.min.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/dropzone.min.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/floating-wpp.min.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/default-map.js"></script>
+<script type="text/javascript" charset="ISO-8859-1" src="js/custom.js"></script>
+
+<div class="modal fade bs-example-modal-lg" id="winModal" data-keyboard="false" data-backdrop="true" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" id="winModalDialog">
+    <div class="modal-content" id="winModalContent">
+    </div>
+  </div>
+</div>
+<script>
+    $(document).ready(function (e) {
+        $('#winModal').on('hidden.bs.modal', function () {
+            $(this)
+                .removeData('bs.modal')
+                .find(".modal-content").html('');
+            $(".modal-backdrop").hide();//fix??
+        }).on('show.bs.modal', function (e) {
+            var data = $(e.relatedTarget).data();
+            var sizeClasss = "modal-lg";
+
+            if (typeof (data) == "object") {
+                if (data.hasOwnProperty("modalSize")) {
+                    if ($.inArray(data.modalSize, ["lg", "sm", "md"]) != -1) {
+                        sizeClasss = "modal-" + data.modalSize;
+                    }
+                }
+            }
+
+            $("#winModal #winModalDialog")
+                .removeClass("modal-lg  modal-sm  modal-md")
+                .addClass(sizeClasss);
+        });
+    });
+</script>
+
+</body>
+</html>
