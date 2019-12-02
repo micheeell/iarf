@@ -2,11 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-    <title>IARF - Fitness - Lanús</title>
+    <title>IARF - Formulario de contacto</title>
   <meta name="description" content="Instituto de Alto Rendimiento Físico - Lanús">
   <meta property="og:title" content="IARF - Fitness - Nutrición - Training" />
-  <meta property="og:url" content="https://iarf.com.ar/" />
-  <meta property="og:description" content="Instituto de Alto Rendimiento Físico - Lanús">
+  <meta property="og:url" content="https://iarf.com.ar/contacto.html" />
+  <meta property="og:description" content="Instituto de Alto Rendimiento Físico - Dejanos tu consulta - Lanús">
   <meta property="og:image" content="//iarf.com.ar/images/logo_IARF-og.jpg">
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_AR" />
@@ -117,25 +117,82 @@
   </div>
 </header>
 
-<!-- @todo: teplace Titlle - target.html - Short description - Link - Short Text - CALL-TO-ACTION -->
-<section class="fitness-care-gym-area content fix">
+<section class="inner-banner pattern-3">
+  <div class="container text-center">
+    <h2>IARF - Lanús</h2>
+    <p>¿Tenés alguna duda acerca de nuestros cursos, horarios, clases, programas u organización?<br>
+      No dudes en contactarnos:
+      Llená el formulario, nos estaremos comunicando a la brevedad.<br>
+      ¡Tu consulta no molesta!</p>
+  </div>
+</section>
+
+<section class="contact-section contact-page section-padding">
   <div class="container">
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h1><span>Titlle</span></h1>
-    </div>
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="single-item clearfix">
-          <div class="right-box">
-            <h3>Section</h3>
-            <a href="target.html" title="Short description">Link</a>
-            <p>Short text</p>
-            <div class="button">
-              <a class="pull-left black arrow-push-in-right" href="target.html" title="CALL-TO-ACTION">
-                <span>Más info <i class="fa fa-caret-right"></i></span></a>
-            </div>
-          </div>
+      <div class="col-md-4">
+        <div class="section-title">
+          <h1><span>Dónde encontrarnos</span></h1>
         </div>
+        <div class="contact-info-box">
+          <h2>IARF Lanús</h2>
+          <ul>
+            <li>
+              <div class="icon-box">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="text-box">
+                <p>Bv de los Italianos 3511, Lanús Este<br>
+                  Buenos Aires, Argentina<br>
+                  <small><a href="nosotros.html">(ver en el mapa)</a></small>
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box">
+                <i class="fa fa-whatsapp"></i>
+              </div>
+              <div class="text-box">
+                <p>(011) 3347-0491</p>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="text-box">
+                <p>info.cursos.iarf@gmail.com</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- /.contact-info-box -->
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-8">
+        <div class="section-title">
+          <h1><span>Dejanos tu consulta</span></h1>
+        </div>
+        <form id="f_contacto" action="https://formspree.io/xqkaqvpy" class="home-contact-form contact-form" method="POST">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" required placeholder="Tu nombre *" class="form-control">
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="text" name="celular" required placeholder="Tu número de teléfono"  class="form-control">
+            </div>
+            <div class="col-md-9 form-group">
+              <input type="email" name="_replyto" required placeholder="Tu email *" class="form-control">
+            </div>
+            <div class="col-md-12 form-group">
+              <textarea name="mensaje" required placeholder="Tu mensaje *" class="form-control"></textarea>
+              <small>* Campos requeridos</small>
+              <button type="submit" class="arrow-push-out-right"><span>Envíar <i class="fa fa-caret-right"></i></span></button>
+            </div>
+            <input type="hidden" name="_next" value="https://iarf.com.ar/gracias.html"/>
+            <div class="clearfix"></div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
