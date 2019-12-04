@@ -39,8 +39,7 @@
 33. Blog styles
 34. contact styles
 35. Cart Page styles
-36. Checkout page styles
-37. Login Register styles
+36. Login Register styles
 
  *****************************
  *    End TABLE OF CONTENT   *
@@ -805,24 +804,20 @@ ul.post-pagination li a {
     left: 0;
     width: 20000px;
     height: 100%;
-    /*background: #a6c311 !important;*/
-    /* background: #1CC7B1 !important;*/
-  /*  background-color: #2270AA !important;*/
-   background: rgba(65,159,215,1);
-background: -moz-linear-gradient(top, rgba(65,159,215,1) 0%, rgba(41,80,142,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(65,159,215,1)), color-stop(100%, rgba(41,80,142,1)));
-background: -webkit-linear-gradient(top, rgba(65,159,215,1) 0%, rgba(41,80,142,1) 100%);
-background: -o-linear-gradient(top, rgba(65,159,215,1) 0%, rgba(41,80,142,1) 100%);
-background: -ms-linear-gradient(top, rgba(65,159,215,1) 0%, rgba(41,80,142,1) 100%);
-background: linear-gradient(to bottom, rgba(65,159,215,1) 0%, rgba(41,80,142,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', endColorstr='#29508e', GradientType=0 );
+    background: rgba(154, 24, 24, 1);
+    background: -moz-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(205, 75, 75, 1)), color-stop(100%, rgba(103, 0, 0, 1)));
+    background: -webkit-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
+    background: -o-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgb(205, 75, 75) 0%, rgb(103, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', endColorstr='#29508e', GradientType=0 );
     border-bottom-left-radius: 5px;
     transform: skewX(45deg);
 }
 
 .header .header-top .contact-info {
     margin: 0;
-    padding: 0;
     display: inline-block;
     position: relative;
     padding: 5px 0;
@@ -843,7 +838,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', end
 }
 
 .header .header-top .contact-info li a {
-
     color: #f7f7f7;
 }
 
@@ -1341,39 +1335,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', end
     color: #a6c311;
     font-weight: bold;
     line-height: 50px;
-}
-
-.header .menuzord .megamenu .header-cart-box li .checkout-btn {
-    padding-right: 23px;
-}
-
-.header .menuzord .megamenu .header-cart-box li .checkout-btn a {
-    background: #a6c311;
-    padding: 0;
-    line-height: 50px;
-    padding: 0 20px;
-}
-
-.header .menuzord .megamenu .header-cart-box li .checkout-btn a span {
-    color: #ffffff !important;
-    text-transform: uppercase !important;
-    font-weight: 900 !important;
-    font-style: normal !important;
-}
-
-.header .menuzord .megamenu .header-cart-box li .checkout-btn a:hover .fa {
-    transform: translate3d(20px, 0, 0);
-    opacity: 0;
-}
-
-.header .menuzord .megamenu .header-cart-box li .checkout-btn a .fa {
-    font-size: 14px;
-    color: #ffffff;
-    font-family: 'FontAwesome';
-    margin-left: 8px;
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-    transition: all .4s ease;
 }
 
 .header .menuzord .megamenu .header-cart-box .cart-bottom {
@@ -2799,8 +2760,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', end
 
 .health-care-package-area .single-item.equipamiento {
     /* border: 1px solid #f7f7f7;*/
-     border: 1px solid #2270AA;
-    box-shadow: 0 0 8px rgba(34, 112, 170, 0.1);
+    border: 1px solid #9A1818;
+    box-shadow: 0 0 8px rgba(126, 5, 5, 0.1);
     overflow: hidden;
 }
 
@@ -7912,125 +7873,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', end
 
 
 /** -------------------------------- *
- *   36. Checkout page styles        *
- *  -------------------------------- */
-
-.checkout-section .styled-heading h2 {
-    background: url(../img/resources/cart-page-title-bg.png) top center repeat;
-    display: inline-block;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #272727;
-    font-weight: 900;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.checkout-section.cart-section .billing-info-form form .form-group .field-label {
-    color: #9e9e9e;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0 0 3px;
-}
-
-.checkout-section.cart-section .billing-info-form form .form-group input {
-    border: 2px solid #f4f4f4;
-    color: #9e9e9e;
-    font-size: 16px;
-    height: 48px;
-    padding: 0 20px;
-    width: 100%;
-}
-
-.checkout-section.cart-section .bottom {
-    padding-top: 40px;
-}
-
-.checkout-section .column.default-column h3 {
-    color: #262626;
-    font-size: 24px;
-    font-weight: 900;
-    text-transform: uppercase;
-    margin-bottom: 36px;
-}
-
-.checkout-section.cart-section .bottom .totals-table {
-    border: 2px solid #f4f4f4;
-}
-
-.checkout-section.cart-section .bottom .totals-table li {
-    border-bottom: 1px solid #f4f4f4;
-}
-
-.checkout-section.cart-section .bottom .totals-table li span.col.col-title {
-    border-right: 1px solid #f4f4f4;
-    color: #9e9e9e;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.checkout-section.cart-section .bottom .totals-table li span.col {
-    color: #999999;
-    font-size: 16px;
-}
-
-.checkout-section .payment-options {
-    padding-top: 30px;
-}
-
-.checkout-section .payment-options .option-block .radio-block.active .icon i {
-    color: #a6c311;
-}
-
-.checkout-section .payment-options .option-block {
-    margin-bottom: 10px;
-}
-
-.checkout-section .payment-options .option-block .radio-block .icon {
-    float: left;
-    padding-right: 15px;
-}
-
-.checkout-section .payment-options .option-block .radio-block .icon i {
-    color: #9e9e9e;
-    font-size: 16px;
-    line-height: 28px;
-}
-
-.checkout-section .payment-options .option-block .radio-block label.radio-label {
-    color: #272727;
-    font-size: 16px;
-    font-weight: normal;
-    display: block;
-}
-
-.checkout-section .payment-options .text {
-    padding-left: 30px;
-}
-
-.checkout-section .payment-options .text p {
-    color: #9e9e9e;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.checkout-section.cart-section .thm-btn {
-    margin-top: 40px;
-}
-
-.checkout-section.cart-section .cart-table {
-    width: 100%;
-    min-width: auto;
-}
-
-.checkout-section.cart-section .cart-total .section-title {
-    padding-bottom: 35px;
-}
-
-
-/** -------------------------------- *
- *   37. Login Register styles       *
+ *   36. Login Register styles       *
  *  -------------------------------- */
 
 .login-register ul,
@@ -8221,7 +8064,6 @@ ul.gallery-filter li:hover span, ul.gallery-filter li.active span,
 .single-popular-class .icon-box,
 .suppliments-partners-area .single-item .img-holder .overlay-content,
 .top-bar-area.home-3,
-.header .menuzord .megamenu .header-cart-box li .checkout-btn a,
 .single-fitness-service-round-icon.square-box:hover a,
 .single-fitness-service-round-icon.square-box:hover .icon-box,
 .single-fitness-team-style-two .overlay .inner-box,
@@ -8265,18 +8107,18 @@ ul.post-pagination li:hover a, ul.post-pagination li.active a,
 .single-workout-package-page p b,
 .customizer-box input + .slider,
 .error-404 form button {
-    background-color: #2270AA;
+    background-color: #9A1818;
 }
 
 .owl-theme .owl-nav [class*=owl-],
 .single-sidebar.price-filter .noUi-handle {
-    background-color: #2270AA !important;
+    background-color: #9A1818 !important;
 }
 
 @media(max-width: 1024px) {
     .menuzord .showhide,
     .menuzord-responsive .menuzord-menu.scrollable {
-        background-color: #2270AA !important;
+        background-color: #9A1818 !important;
     }
 }
 
@@ -8336,11 +8178,7 @@ ul.post-pagination li:hover a, ul.post-pagination li.active a,
 .error-404 a,
 .customizer-box button.toggler,
 .single-popular-class .img-box .overlay .content .box a {
-    color: #2270AA;
-}
-
-.color-green {
-    color: #2270AA !important;
+    color: #B43232;
 }
 
 .header .menuzord .megamenu,
@@ -8355,15 +8193,15 @@ ul.gallery-filter li:hover span, ul.gallery-filter li.active span,
 .fitness-video-area .video-box .inner-box ul.navigation li a:hover,
 .single-blog-post .img-holder .overlay ul li,
 ul.post-pagination li:hover a, ul.post-pagination li.active a {
-    border-color: #2270AA;
+    border-color: #9A1818;
 }
 
 .header.home-3 .has-angle:before {
-    border-top-color: #2270AA;
+    border-top-color: #9A1818;
 }
 
 .header.home-3 .has-angle:after {
-    border-bottom-color: #2270AA;
+    border-bottom-color: #9A1818;
 }
 
 .workout-schedules-area .single-item .img-holder .overlay,
@@ -8376,11 +8214,11 @@ ul.post-pagination li:hover a, ul.post-pagination li.active a {
 .single-project-item .overlay .box .bottom-box ul li a:hover,
 .top-bar-area.home-3 .social li a i,
 .footer-bottom-area .footer-bottom .social-links a i {
-    background-color: #2270AA !important;
+    background-color: #9A1818 !important;
 }
 
 .experienced-trainer-area .single-item .img-holder .overlay-content ul {
-    border-color: #2270AA;
+    border-color: #9A1818;
 }
 
 small.required {
@@ -8402,10 +8240,6 @@ small.required {
 
 .copy-right {
     margin-right:40px;
-}
-
-#MP-Checkout-dialog {
-    z-index: 1052 !important;
 }
 
 .voucher-btn {
