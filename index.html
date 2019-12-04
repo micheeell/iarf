@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8"/>
-    <title>IARF - Fitness - Lanús</title>
+  <title>IARF - Fitness - Lanús</title>
   <meta name="description" content="Instituto de Alto Rendimiento Físico - Lanús"/>
   <meta property="og:title" content="IARF - Fitness - Nutrición - Training" />
   <meta property="og:url" content="https://iarf.com.ar/" />
@@ -12,6 +12,7 @@
   <meta property="og:locale" content="es_AR" />
   <meta property="og:locale:alternate" content="es_ES" />
   <meta property="og:locale:alternate" content="en_US" />
+  <meta property="keywords" content="Instituto Alto Rendimiento Físico, Fitness, Seminario, Nutrición, Musculación, Salud, Entrenamiento, Gimnasio, Cursos, Aprendizaje, Optimizar, Mejorar, Superación, Sustentable, Alimentación, Lanús" />
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"/>
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"/>
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"/>
@@ -55,14 +56,12 @@
             <div class="clearfix">
               <ul class="contact-info pull-left">
                 <li>
-                  <span><a href="cursos.html" title="Acceso a cursos">
-                    <i class="fa fa-user"></i> Cursos presenciales
-                  </a></span>
-                </li>
-                <li>
-                  <span><a href="https://wa.me/+54911-3347-0491" title="Comunicate con nosotros">
-                    <i class="fa fa-whatsapp"></i> Envianos un WhatsApp
-                  </a></span>
+                  <span>
+                    <!-- i class="fa fa-fort-awesome"></i -->
+                    <!-- i class="fa fa-bolt"></i -->
+                    <!-- i class="fa fa-trophy"></i -->
+                    Instituto de Alto Rendimiento Físico
+                  </span>
                 </li>
               </ul>
             </div>
@@ -76,29 +75,29 @@
     <div class="container">
       <nav class="navigation clearfix">
         <div id="menuzord" class="menuzord">
-          <a href="https://www.iarf-fitness.com.ar/" class="menuzord-brand" style="line-height: 64px; overflow: visible; vertical-align: middle;">
-            <img src="images/logo_IARF-banner.jpg" alt="Instituto de Alto Rendimiento Físico" id="skin-logo-img"/>
+          <a href="https://iarf.com.ar/" class="menuzord-brand" style="line-height: 64px; overflow: visible; vertical-align: middle;">
+            <img src="images/logo_IARF-banner.png" alt="Instituto de Alto Rendimiento Físico" id="skin-logo-img"/>
           </a>
           <ul class="menuzord-menu">
             <li>
-              <a href="nosotros.html" class="flip-flop-btn"><span data-hover="Nosotros">Nosotros</span></a>
+              <a href="#nosotros" class="flip-flop-btn"><span data-hover="Nosotros">Nosotros</span></a>
             </li>
             <li>
-              <a href="cursos.html" class="flip-flop-btn">
+              <a href="#cursos" class="flip-flop-btn">
                 <span data-hover="Cursos Presenciales">Cursos Presenciales</span>
               </a>
               <ul class="dropdown">
-                <li><a href="cursos.html#musculacion">Personal Trainer e Instructor de Musculación</a></li>
-                <li><a href="cursos.html#entrenamiento-funcional">Entrenamiento Funcional</a></li>
-                <li><a href="cursos.html#spinning">Spinning</a></li>
-                <li><a href="cursos.html#salsa">Salsa</a></li>
-                <li><a href="cursos.html#bachata">Bachata</a></li>
+                <li><a href="#musculacion">Personal Trainer e Instructor de Musculación</a></li>
+                <li><a href="#entrenamiento-funcional">Entrenamiento Funcional</a></li>
+                <li><a href="#spinning">Spinning</a></li>
+                <li><a href="#salsa">Salsa</a></li>
+                <li><a href="#bachata">Bachata</a></li>
               </ul>
             </li>
-            <li>
+            <!-- li>
               <a href="galeria.html" class="flip-flop-btn"><span data-hover="Galería">Galería</span></a>
-            </li>
-            <li><a href="contacto.html" class="flip-flop-btn"><span data-hover="Contáctenos">Contáctenos</span></a></li>
+            </li -->
+            <li><a href="#contacto" class="flip-flop-btn"><span data-hover="Contáctenos">Contáctenos</span></a></li>
           </ul>
         </div>
       </nav>
@@ -193,34 +192,279 @@
   </div>
 </section>
 
-<section class="fitness-care-gym-area fix">
+<!-- nosotros -->
+<section class="fitness-care-gym-area content fix" id="nosotros">
   <div class="container">
     <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h1><span>Elegí como querés estudiar</span></h1>
+      <h2><span>Dónde Estamos</span></h2>
     </div>
     <div class="row">
-      <!--Start single item-->
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="single-item clearfix">
           <div class="right-box">
-            <h3>Cursos Presenciales</h3>
-            <a href="cursos.html" title="Cursos Presenciales">
-              <img src="images/banner_presencial.jpg" class="img-responsive" alt="Cursos"></a>
-            <p>Te esperamos en nuestra sucursal y las mejores clases presenciales</p>
-            <div class="button">
-              <a class="pull-left black arrow-push-in-right"
-                 href="cursos.html" title="Cursos Presenciales">
-                <span>Mas info <i class="fa fa-caret-right"></i></span></a>
-            </div>
+            <h3>Te esperamos en nuestra sucursal</h3>
+          </div>
+        </div>
+        <div id="ubicacion" style="height:400px;width:100%;margin:4px 4px 16px; "></div>
+        <script>
+            function myMap() {
+                var myCenter = new google.maps.LatLng(-34.739138, -58.375138);
+                var mapProp = {center:myCenter, zoom:17, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+                var map = new google.maps.Map(document.getElementById("ubicacion"),mapProp);
+                var marker = new google.maps.Marker({position:myCenter});
+                marker.setMap(map);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCmSXagiSqShgAi-slWLXIW9iZ_sV2l5Y&callback=myMap"></script>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin nosotros -->
+
+<!-- cursos -->
+<section class="inner-banner pattern-3" id="cursos">
+  <div class="container text-center">
+    <h2>IARF - Lanús</h2>
+    <p>Cursos y seminarios del instituto</p>
+  </div>
+</section>
+
+<section class="fitness-care-gym-area content fix">
+  <div class="container">
+    <a id="musculacion"></a>
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase;">Personal Trainer e Instructor de Musculación</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img src="images/flexions.jpg" alt="Instructor de Musculación" width="620"
+             height="352" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1"/>
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>
+              Este curso tiene como objetivo la formación de profesionales en un marco global del entrenamiento personalizado, contemplando todos los pilares necesarios para la cumplimentación tanto de objetivos generales como específicos, que pueden aplicarse a las distintas características de un individuo. Ya sea edad, sexo, biotipo, experiencia y patologías.
+            </p>
+            <p>
+              Se forma un profesional el cual sepa manejar, controlar, organizar, motivar, analizar e interactuar adecuadamente con una o un conjunto de personas.
+            </p>
+            <p>
+              Clase a clase se van trabajando herramientas para adquirir un vocabulario técnico, un fortalecimiento expresivo y el desarrollo de una actitud pro activa.
+            </p>
+            <p>
+              Con respecto a un conocimiento orientado hacia el entrenamiento, el futuro profesional sabrá planificar y dictar clases de distintos niveles e intensidades teniendo en cuenta las características del entorno y los elementos disponibles.
+            </p>
+            <p>
+              Se le brindarán herramientas no sólo de materias primordiales como anatomía y fisiología, nutrición y suplementación sino también de materias transversales como elongación específica, RCP y psicología deportiva.
+            </p>
+            <p>
+              Entonces, una vez explicado el objetivo del curso, esperamos que se comprenda la filosofía que quiere transmitir la Institución haciendo hincapié en la importancia de una formación en un marco global del entrenamiento personalizado.
+            </p>
+            <h3>TEMARIO</h3>
+            <ul>
+              <li>INTRODUCCIÓN AL ENTRENAMIENTO PERSONALIZADO.</li>
+              <li>ANATOMÍA Y FISIOLOGÍA.</li>
+              <li>NUTRICIÓN.</li>
+              <li>MUSCULACIÓN.</li>
+              <li>SUPLEMENTACIÓN.</li>
+              <li>ELONGACIÓN AVANZADA.</li>
+              <li>PSICOLOGÍA APLICADA AL DEPORTE.</li>
+              <li>RCP.</li>
+            </ul>
+
+            <h3>DURACION:</h3>
+            MODALIDAD 1: 4 MESES (TODOS LOS SÁBADOS DE 10 A 14HS).<br>
+            MODALIDAD 2: 6 MESES (UN DOMINGO AL MES DE 10 A 18HS).
           </div>
         </div>
       </div>
-      <!--End single item-->
     </div>
   </div>
 </section>
 
-<!--Start footer area-->
+
+<section class="fitness-care-gym-area content fix">
+  <a id="nutricion"></a>
+  <div class="container">
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Seminario de Nutrición Aplicada al Deporte</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>
+              Este seminario está dirigido para todo el público. El objetivo principal es que los alumnos aprendan la importancia real que tiene la alimentación y la suplementación para el logro de objetivos en el alto rendimiento.
+            </p>
+            <p>
+              El Seminario tiene una duración de 4hs por día, las cuales se van a dividir en teoría y prácticas.
+            </p>
+
+            <h3>Temario:</h3>
+            <ul>
+              <li>Sistemas energéticos.</li>
+              <li>Qué comer antes, durante y después de la actividad física.</li>
+              <li>Balanza calórica.</li>
+              <li>Déficit.</li>
+              <li>Superávit.</li>
+              <li>Mantenimiento.</li>
+              <li>
+                Suplementación deportiva.
+                <ul>
+                  <li>Proteína.</li>
+                  <li>Creatina.</li>
+                  <li>Aminoácidos.</li>
+                  <li>Quemadores de grasa.</li>
+                  <li>Multivitamínicos.</li>
+                  <li>Glutamina.</li>
+                  <li>Tribulus.</li>
+                </ul>
+              </li>
+              <li>
+                Alimentación aplicada al alto rendimiento.
+                <ul>
+                  <li>Espirulina.</li>
+                  <li>Maca.</li>
+                  <li>Levadura de cerveza.</li>
+                  <li>Germen de trigo.</li>
+                  <li>Leche de almendras.</li>
+                  <li>Jengibre.</li>
+                </ul>
+              </li>
+              <li>Estimulación hormonal para la ganancia muscular.</li>
+              <li>
+                Recetario de preparaciones saludables.
+                <ul>
+                  <li>Barras de cereales.</li>
+                  <li>Licuados.</li>
+                  <li>Pancakes.</li>
+                  <li>Viandas fit.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fitness-care-gym-area content fix">
+  <div class="container">
+    <a id="entrenamiento-funcional"></a>
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Entrenamiento Funcional</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Entrenamiento funcional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fitness-care-gym-area content fix">
+  <div class="container">
+    <a id="spinning"></a>
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Spinning</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Spinning</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fitness-care-gym-area content fix">
+  <div class="container">
+    <a id="salsa"></a>
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Salsa</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Salsa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fitness-care-gym-area content fix">
+  <div class="container">
+    <a id="bachata"></a>
+    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Bachata</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Bachata</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin cursos -->
+
+<!-- contacto -->
+<section class="contact-section contact-page section-padding" id="contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h1><span>Dejanos tu consulta</span></h1>
+        </div>
+        <form id="f_contacto" action="https://formspree.io/xqkaqvpy" class="home-contact-form contact-form" method="POST">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label style="min-width: 75%;">
+                <input type="text" name="name" required placeholder="Tu nombre *" class="form-control">
+              </label>
+            </div>
+            <div class="col-md-6 form-group">
+              <label style="min-width: 75%;">
+                <input type="text" name="celular" placeholder="Tu número de teléfono"  class="form-control">
+              </label>
+            </div>
+            <div class="col-md-6 form-group">
+              <label style="min-width: 75%;">
+                <input type="email" name="_replyto" required placeholder="Tu email *" class="form-control">
+              </label>
+            </div>
+            <div class="col-md-12 form-group">
+              <label style="min-width: 87.5%;">
+                <textarea name="mensaje" required placeholder="Tu mensaje *" class="form-control"></textarea>
+              </label>
+              <div class="clearfix"></div>
+              <small class="required">* Campos requeridos</small>
+              <button type="submit" class="arrow-push-out-right"><span>Envíar&nbsp;&nbsp;<i class="fa fa-paper-plane-o"></i></span></button>
+            </div>
+            <input type="hidden" name="_next" value="https://iarf.com.ar/gracias.html"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin contacto -->
+
+<!-- footer -->
 <footer class="footer-area">
   <div class="container">
     <div class="row">
@@ -241,7 +485,7 @@
                 <i class="fa fa-envelope"></i>
               </div>
               <div class="text">
-                <p>info.cursos.iarf@gmail.com</p>
+                <p><a href="mailto:info.cursos.iarf@gmail.com">info.cursos.iarf@gmail.com</a></p>
               </div>
             </li>
             <li>
@@ -253,7 +497,8 @@
               </div>
             </li>
           </ul>
-          <h3 class="title">Instituto Alto Rendimiento Físcico<br>IARF</h3>
+          <div class="clearfix"></div>
+          <h3 class="title">Instituto de Alto Rendimiento Físico</h3>
         </div>
       </div>
       <!--Start single footer widget-->
@@ -267,7 +512,8 @@
               </div>
               <div class="text">
                 <p>
-                  Bv de los Italianos 3511<br>Lanús Este<br>
+                  <a href="https://goo.gl/maps/wJrRJmy3DHdyju3FA" target="_blank">Bv de los Italianos 3511</a><br>
+                  <a href="https://goo.gl/maps/wJrRJmy3DHdyju3FA" target="_blank">Lanús Este</a><br>
                   Buenos Aires, Argentina
                 </p>
               </div>
@@ -285,7 +531,7 @@
                 <i class="fa fa-envelope"></i>
               </div>
               <div class="text">
-                <p>infocursosiarf@gmail.com</p>
+                <p><a href="mailto:info.cursos.iarf@gmail.com">info.cursos.iarf@gmail.com</a></p>
               </div>
             </li>
             <li>
@@ -335,7 +581,7 @@
               <div class="social-links">
                 <a class="icon-holder" href="https://www.facebook.com/IARF-facebook/" target="_blank">
                   <i class="fa fa-facebook"></i></a>
-                <a class="icon-holder" href="https://www.instagram.com/instituto_fitness-IG/" target="_blank">
+                <a class="icon-holder" href="https://www.instagram.com/instituto_fitness/" target="_blank">
                   <i class="fa fa-instagram"></i></a>
               </div>
             </li>
@@ -379,7 +625,7 @@
                 <a class="icon-holder" href="https://www.facebook.com/IARF/" target="_blank">
                   <i class="fa fa-facebook"></i>
                 </a>
-                <a class="icon-holder" href="https://www.instagram.com/instituto_fitness-IG/" target="_blank">
+                <a class="icon-holder" href="https://www.instagram.com/instituto_fitness/" target="_blank">
                   <i class="fa fa-instagram"></i>
                 </a>
               </div>
@@ -390,16 +636,17 @@
     </div>
     <div class="row footer-aux-links">
       <div class="col-xs-12 text-center">
-        <a href="https://www.iarf.com.ar/nosotros" target="_blank">Acerca de IARF</a>
+        <a href="#nosotros" target="_blank">Acerca de IARF</a>
         <a href="docs/terminos-y-condiciones.pdf" target="_blank">Términos y condiciones</a>
         <a href="docs/privacidad.pdf" target="_blank">Política de privacidad</a>
-        <a href="contacto.html" target="_blank">Contáctenos</a>
+        <a href="#contacto" target="_blank">Contáctenos</a>
       </div>
     </div>
   </div>
 </footer>
-<!--End footer area-->
-<!--Start footer bottom area-->
+<!-- fin footer -->
+
+<!-- Start footer bottom -->
 <section class="footer-bottom-area">
   <div class="container ">
     <div class="footer-bottom">
@@ -418,11 +665,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- /.footer-bottom -->
+    </div><!-- /.footer-bottom -->
   </div>
 </section>
-<!--End footer bottom area-->
+<!-- fin footer bottom -->
 
 <!--WhatsApp de IARF -->
 <div class="floating-wpp"></div>
@@ -446,9 +692,9 @@
 <!-- jQuery ui js -->
 <script defer src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.4/jquery-ui.min.js"></script>
 <!-- owl carousel js -->
-<script defer src="/js/owl.carousel.min.js"></script>
+<script defer src="js/owl.carousel.min.js"></script>
 <!-- jQuery validation -->
-<script defer src="/js/jquery.validate.min.js"></script>
+<script defer src="js/jquery.validate.min.js"></script>
 
 <!-- mixit up -->
 <script defer src="js/jquery.mixitup.min.js"></script>
