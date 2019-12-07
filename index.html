@@ -22,7 +22,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"/>
   <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"/>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"/>
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"/>
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"/>
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
@@ -84,20 +84,40 @@
             </li>
             <li>
               <a href="#cursos" class="flip-flop-btn">
-                <span data-hover="Cursos Presenciales">Cursos Presenciales</span>
+                <span data-hover="Cursos">Cursos</span>
               </a>
               <ul class="dropdown">
                 <li><a href="#musculacion">Personal Trainer e Instructor de Musculación</a></li>
                 <li><a href="#entrenamiento-funcional">Entrenamiento Funcional</a></li>
                 <li><a href="#spinning">Spinning</a></li>
-                <li><a href="#salsa">Salsa</a></li>
-                <li><a href="#bachata">Bachata</a></li>
+                <li><a href="#salsa">Salsa &amp; Bachata</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#seminarios" class="flip-flop-btn">
+                <span data-hover="Seminarios">Seminarios</span>
+              </a>
+              <ul class="dropdown">
+                <li><a href="#nutricion">Seminario de Nutrición Deportiva</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#clases" class="flip-flop-btn">
+                <span data-hover="Clases Especiales">Clases Especiales</span>
+              </a>
+              <ul class="dropdown">
+                <li><a href="#auxilios">Primeros Auxilios y RCP</a></li>
               </ul>
             </li>
             <!-- li>
               <a href="galeria.html" class="flip-flop-btn"><span data-hover="Galería">Galería</span></a>
             </li -->
-            <li><a href="#contacto" class="flip-flop-btn"><span data-hover="Contáctenos">Contáctenos</span></a></li>
+            <li>
+              <a href="#contacto" class="flip-flop-btn"><span data-hover="Contáctenos">Contáctenos</span></a>
+            </li>
+            <li>
+              <a href="#donde-estamos" class="flip-flop-btn"><span data-hover="Donde Estamos">Donde Estamos</span></a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -113,6 +133,7 @@
   </div>
 </header>
 
+<!-- slider/carousel -->
 <section class="rev_slider_wrapper">
   <div id="slider1" class="rev_slider" data-version="5.0">
     <h6 style="display: none;">Diaporama</h6>
@@ -191,31 +212,24 @@
     </ul>
   </div>
 </section>
+<!-- fin slider/carousel -->
 
 <!-- nosotros -->
 <section class="fitness-care-gym-area content fix" id="nosotros">
   <div class="container">
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h2><span>Dónde Estamos</span></h2>
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
+      <h2><span>Quienes somos</span></h2>
     </div>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="single-item clearfix">
           <div class="right-box">
-            <h3>Te esperamos en nuestra sucursal</h3>
+            <h3>Nuestra Trayectoria</h3>
           </div>
         </div>
-        <div id="ubicacion" style="height:400px;width:100%;margin:4px 4px 16px; "></div>
-        <script>
-            function myMap() {
-                var myCenter = new google.maps.LatLng(-34.739138, -58.375138);
-                var mapProp = {center:myCenter, zoom:17, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-                var map = new google.maps.Map(document.getElementById("ubicacion"),mapProp);
-                var marker = new google.maps.Marker({position:myCenter});
-                marker.setMap(map);
-            }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCmSXagiSqShgAi-slWLXIW9iZ_sV2l5Y&callback=myMap"></script>
+        <div class="content">
+          <p>Acerca de nuestro equipo...</p>
+        </div>
       </div>
     </div>
   </div>
@@ -225,15 +239,15 @@
 <!-- cursos -->
 <section class="inner-banner pattern-3" id="cursos">
   <div class="container text-center">
-    <h2>IARF - Lanús</h2>
-    <p>Cursos y seminarios del instituto</p>
+    <h2>IARF</h2>
+    <p>Cursos del instituto</p>
   </div>
 </section>
 
-<section class="fitness-care-gym-area content fix">
+<!-- curso: musculacion -->
+<section class="fitness-care-gym-area content fix" id="musculacion">
   <div class="container">
-    <a id="musculacion"></a>
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
       <h1><span style="text-transform: uppercase;">Personal Trainer e Instructor de Musculación</span></h1>
     </div>
     <div class="row">
@@ -281,12 +295,77 @@
     </div>
   </div>
 </section>
+<!-- fin curso-musculacion -->
 
-
-<section class="fitness-care-gym-area content fix">
-  <a id="nutricion"></a>
+<!-- curso entrenamiento-funcional -->
+<section class="fitness-care-gym-area content fix" id="entrenamiento-funcional">
   <div class="container">
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Entrenamiento Funcional</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Entrenamiento funcional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin curso-entrenamiento -->
+
+<!-- curso: spinning -->
+<section class="fitness-care-gym-area content fix" id="spinning">
+  <div class="container">
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Spinning</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Spinning</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin curso-spinning -->
+
+<!-- curso salsa -->
+<section class="fitness-care-gym-area content fix" id="salsa">
+  <div class="container">
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Salsa &amp; Bachata</span></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <p>Clases de Salsa & Bachata</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin curso-salsa -->
+<!-- fin cursos -->
+
+<!-- seminarios -->
+<section class="inner-banner pattern-3" id="seminarios">
+  <div class="container text-center">
+    <h2>IARF</h2>
+    <p>Seminarios</p>
+  </div>
+</section>
+
+<section class="fitness-care-gym-area content fix" id="nutricion">
+  <div class="container">
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
       <h1><span style="text-transform: uppercase">Seminario de Nutrición Aplicada al Deporte</span></h1>
     </div>
     <div class="row">
@@ -348,79 +427,33 @@
     </div>
   </div>
 </section>
+<!-- fin seminarios -->
 
-<section class="fitness-care-gym-area content fix">
+<!-- clases -->
+<section class="inner-banner pattern-3" id="clases">
+  <div class="container text-center">
+    <h2>IARF</h2>
+    <p>Clases Especiales</p>
+  </div>
+</section>
+
+<section class="inner-banner pattern-3" id="rcp">
   <div class="container">
-    <a id="entrenamiento-funcional"></a>
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h1><span style="text-transform: uppercase">Entrenamiento Funcional</span></h1>
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
+      <h1><span style="text-transform: uppercase">Salsa &amp; Bachata</span></h1>
     </div>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="single-item clearfix">
           <div class="right-box">
-            <p>Entrenamiento funcional</p>
+            <p>Clases de Salsa & Bachata</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<section class="fitness-care-gym-area content fix">
-  <div class="container">
-    <a id="spinning"></a>
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h1><span style="text-transform: uppercase">Spinning</span></h1>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="single-item clearfix">
-          <div class="right-box">
-            <p>Spinning</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="fitness-care-gym-area content fix">
-  <div class="container">
-    <a id="salsa"></a>
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h1><span style="text-transform: uppercase">Salsa</span></h1>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="single-item clearfix">
-          <div class="right-box">
-            <p>Salsa</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="fitness-care-gym-area content fix">
-  <div class="container">
-    <a id="bachata"></a>
-    <div class="section-title text-center " style="padding-bottom: 30px !important;">
-      <h1><span style="text-transform: uppercase">Bachata</span></h1>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="single-item clearfix">
-          <div class="right-box">
-            <p>Bachata</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- fin cursos -->
+<!-- fin clases -->
 
 <!-- contacto -->
 <section class="contact-section contact-page section-padding" id="contacto">
@@ -439,7 +472,7 @@
             </div>
             <div class="col-md-6 form-group">
               <label style="min-width: 75%;">
-                <input type="text" name="celular" placeholder="Tu número de teléfono"  class="form-control">
+                <input type="text" name="celular" placeholder="Tu número de teléfono" class="form-control">
               </label>
             </div>
             <div class="col-md-6 form-group">
@@ -463,6 +496,37 @@
   </div>
 </section>
 <!-- fin contacto -->
+
+<!-- donde-estamos -->
+<section class="fitness-care-gym-area content fix" id="donde-estamos">
+  <div class="container">
+    <div class="section-title text-center" style="padding-bottom: 30px !important;">
+      <h2><span>Donde Estamos</span></h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="single-item clearfix">
+          <div class="right-box">
+            <h3>Te esperamos en nuestra sucursal</h3>
+            <h3>Te esperamos en nuestra sucursal</h3>
+          </div>
+        </div>
+        <div id="ubicacion" style="height:400px;width:100%;margin:4px 4px 16px; "></div>
+        <script>
+            function myMap() {
+                var myCenter = new google.maps.LatLng(-34.739138, -58.375138);
+                var mapProp = {center:myCenter, zoom:17, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+                var map = new google.maps.Map(document.getElementById("ubicacion"),mapProp);
+                var marker = new google.maps.Marker({position:myCenter});
+                marker.setMap(map);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCmSXagiSqShgAi-slWLXIW9iZ_sV2l5Y&callback=myMap"></script>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- fin donde-estamos -->
 
 <!-- footer -->
 <footer class="footer-area">
@@ -504,7 +568,7 @@
       <!--Start single footer widget-->
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="single-footer-widget">
-          <h3 class="title">IARF Lanús</h3>
+          <h3 class="title">IARF</h3>
           <ul class="contact">
             <li>
               <div class="icon-holder">
