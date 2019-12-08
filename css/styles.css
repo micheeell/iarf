@@ -79,7 +79,7 @@
  *  -------------------------------- */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     perspective: 1000;
@@ -102,7 +102,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 input,
@@ -111,7 +111,8 @@ textarea {
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: Verdana, Serif, sans-serif;
+    text-align: justify;
 }
 
 .animate-3 {
@@ -197,7 +198,7 @@ p {
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     display: inline-block;
     transition: all .5s ease !important;
     position: relative;
@@ -256,7 +257,7 @@ p {
 .section-title a {
   /*  color: #a6c311;*/
     background: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     margin-top: 2px;
@@ -342,12 +343,11 @@ p {
 }
 
 .accrodion .accrodion-content p {
-    margin: 0;
-    margin-top: -10px;
+    margin-top: -10px 0 0;
     font-size: 14px;
     color: #9e9e9e;
     line-height: 26px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .accrodion .accrodion-content .text-box {
@@ -488,7 +488,7 @@ ul.post-pagination li a {
 }
 
 .pattern-3 .section-title span {
-    background: #a6c311;
+    background: rgb(103, 0, 0);
 }
 
 .pattern-4 {
@@ -747,7 +747,7 @@ ul.post-pagination li a {
 .pgrs-bar .counter-box {
     font-size: 30px;
     color: #272727;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial;
     position: absolute;
     top: 50%;
     left: 0;
@@ -794,24 +794,24 @@ ul.post-pagination li a {
 .header .header-top .top-info {
     position: relative;
     padding: 9px 0;
-
 }
 
-.header .header-top .top-info:before {
+.header .header-top .top-info::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 20000px;
     height: 100%;
-    background: rgba(154, 24, 24, 1);
+    background: #9A1818 url("../images/dots.png") repeat center center;
+/*    background: rgba(154, 24, 24, 1);
     background: -moz-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(205, 75, 75, 1)), color-stop(100%, rgba(103, 0, 0, 1)));
     background: -webkit-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
     background: -o-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
     background: -ms-linear-gradient(top, rgba(205, 75, 75, 1) 0%, rgba(103, 0, 0, 1) 100%);
     background: linear-gradient(to bottom, rgb(205, 75, 75) 0%, rgb(103, 0, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', endColorstr='#29508e', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#419fd7', endColorstr='#29508e', GradientType=0 ); */
     border-bottom-left-radius: 5px;
     transform: skewX(45deg);
 }
@@ -823,25 +823,25 @@ ul.post-pagination li a {
     padding: 5px 0;
 }
 
-.header .header-top .contact-info li {
+.header .header-top div.contact-info {
     display: inline-block;
-    list-style: none;
 }
 
-.header .header-top .contact-info li span {
+.header .header-top div.contact-info span {
     display: block;
     color: #f7f7f7;
-    font-size: 16px;
-    text-transform: capitalize;
+    font-size: 24px;
+    padding-left: 15px;
+    text-transform: uppercase;
     margin-left: 37px;
-    font-weight: 300;
+    font-weight: bold;
 }
 
-.header .header-top .contact-info li a {
+.header .header-top div.contact-info a {
     color: #f7f7f7;
 }
 
-.header .header-top .contact-info li span i {
+.header .header-top div.contact-info span i {
     margin-right: 5px;
     font-size: 24px;
     vertical-align: top;
@@ -922,20 +922,17 @@ ul.post-pagination li a {
 }
 
 .header .menuzord .megamenu {
-    padding: 0;
+    padding: 0 0 0 30px;
     border-top: 4px solid #a6c311;
-    padding-left: 30px;
 }
 
 .header .menuzord .megamenu h3 {
-    margin: 0;
+    margin: 28px 0 12px;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 900;
     color: #272727;
-    font-family: 'Roboto';
-    margin-top: 28px;
-    margin-bottom: 12px;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .header .menuzord .megamenu ul,
@@ -954,11 +951,10 @@ ul.post-pagination li a {
     color: #9e9e9e;
     font-weight: 300;
     line-height: 24px;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     display: block;
     background-color: transparent;
-    padding: 7px 16px;
-    padding-right: 0;
+    padding: 7px 16px 7px 0;
     transition: all .3s ease;
 }
 
@@ -1182,7 +1178,7 @@ ul.post-pagination li a {
     }
     .header .menuzord-menu > li > a {
         font-size: 14px;
-        font-family: 'Roboto';
+        font-family: Verdana, Arial, sans-serif;
         font-weight: 900;
         text-transform: uppercase;
         color: #ffffff;
@@ -1201,9 +1197,9 @@ ul.post-pagination li a {
     }
     .header .menuzord-menu ul.dropdown li a {
         font-size: 14px;
-        color: 333;
+        color: #333;
         font-weight: 300;
-        font-family: 'Roboto';
+        font-family: Verdana, Arial, sans-serif;
     }
     .header .menuzord-menu ul.dropdown,
     .header .menuzord-menu ul.dropdown li ul.dropdown {
@@ -1697,7 +1693,7 @@ ul.post-pagination li a {
     font-size: 64px;
     line-height: 64px;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -1705,16 +1701,21 @@ ul.post-pagination li a {
 .rev_slider_wrapper .banner-caption-bg {
     padding: 0 20px;
     position: relative;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
 }
 
+/* .top-info .pull-left span {
+    position: relative;
+} */
+
+/* .top-info .pull-left span::before, */
 .rev_slider_wrapper .banner-caption-bg:before {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: #a6c311 url(../images/dots.png) repeat center center;
+    background: #9A1818 url("../images/dots.png") repeat center center;
     content: '';
     transform: skewx(-10deg);
 }
@@ -1790,7 +1791,7 @@ ul.post-pagination li a {
 
 .rev_slider_wrapper .banner-caption-p {
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 300;
     color: #ffffff;
 }
@@ -1803,7 +1804,7 @@ ul.post-pagination li a {
     color: #ffffff;
     font-size: 36px;
     font-weight: 300;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     display: inline-block;
     line-height: 50px;
     margin: 0;
@@ -1957,7 +1958,7 @@ ul.post-pagination li a {
 
 .slider-bottom-left a span {
     color: #ef9b24;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 24px;
     font-style: italic;
     font-weight: 700;
@@ -1967,10 +1968,8 @@ ul.post-pagination li a {
 
 .slider-bottom-left .content .text ul {
     margin: 0;
-    padding: 0;
+    padding: 0 20px 0 0;
     float: left;
-    padding-left: 0;
-    padding-right: 20px;
 }
 
 .slider-bottom-left .content .text ul li {
@@ -1979,7 +1978,7 @@ ul.post-pagination li a {
     font-style: italic;
     list-style: none;
     line-height: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .slider-bottom-left .content .text ul li i {
@@ -2084,7 +2083,7 @@ ul.post-pagination li a {
     line-height: 30px;
     font-weight: 700;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .slider-bottom-right .content .text ul li p {
@@ -2096,7 +2095,7 @@ ul.post-pagination li a {
 .slider-bottom-right .content .text h3 {
     margin: 0;
     color: #ffffff;
-    font-family: "Raleway", sans-serif;
+    font-family: Georgia, serif, sans-serif;
     font-size: 24px;
     font-weight: 700;
     padding-left: 28px;
@@ -2120,7 +2119,7 @@ ul.post-pagination li a {
     right: 207px;
     background: #a6c311;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     padding: 0 32px;
     line-height: 40px;
@@ -2197,7 +2196,7 @@ ul.post-pagination li a {
 .fitness-care-gym-area .single-item  .button a {
     background: #a6c311 none repeat scroll 0 0;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     height: 50px;
     padding: 13px 0;
@@ -2220,9 +2219,9 @@ ul.post-pagination li a {
 }
 
 .fitness-care-gym-area .single-item .right-box p {
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
     font-size: 14px;
-    color: #9e9e9e;
+    color: #222;
     line-height: 24px;
 }
 
@@ -2317,7 +2316,7 @@ ul.post-pagination li a {
 
 .subscribe-area .subscribe-form h1.title {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 30px;
     font-style: normal;
     margin: 0 0 34px;
@@ -2472,7 +2471,7 @@ ul.post-pagination li a {
 .support-content .single-item .content p {
     font-size: 14px;
     color: #ffffff;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     line-height: 24px;
     font-weight: 500;
 }
@@ -2589,7 +2588,7 @@ ul.post-pagination li a {
     float: left;
     margin-right: 15px;
     font-style: italic;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     color: #9e9e9e;
 }
 
@@ -2612,7 +2611,7 @@ ul.post-pagination li a {
 }
 
 .workout-schedules-area .single-item .content .schedules-list ul li {
-    font-family: "Raleway", sans-serif;
+    font-family: Georgia, serif, sans-serif;
     font-style: normal;
     margin-right: 0;
     line-height: 30px;
@@ -2628,7 +2627,7 @@ ul.post-pagination li a {
     background: #a6c311 none repeat scroll 0 0;
     color: #ffffff;
     display: block;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     margin: 20px 0;
     padding: 25px 0;
@@ -2700,7 +2699,7 @@ ul.post-pagination li a {
 .single-workout-package-page p b {
     color: #a6c311;
     font-weight: 900;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .single-workout-package-page .label-box {
@@ -2825,7 +2824,7 @@ ul.post-pagination li a {
 .health-care-package-area .single-item .content .top .content-heading ul li {
     color: #9e9e9e;
     float: left;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     font-style: italic;
     margin-right: 15px;
@@ -2856,7 +2855,7 @@ ul.post-pagination li a {
 
 .health-care-package-area .single-item .content .package-list ul li {
     line-height: 30px;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
     font-size: 14px;
     color: #9e9e9e;
 }
@@ -2877,7 +2876,7 @@ ul.post-pagination li a {
 .health-care-package-area .single-item .button a {
     background: #a6c311 none repeat scroll 0 0;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     height: 50px;
     padding: 13px 0;
@@ -3074,7 +3073,7 @@ ul.post-pagination li a {
     float: left;
     font-size: 16px;
     margin-right: 20px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     font-weight: 400;
 }
 
@@ -3090,7 +3089,7 @@ ul.post-pagination li a {
     font-weight: 400;
     line-height: 28px;
     margin: 0 0 37px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .walking-area .carousel-indicators {
@@ -3184,7 +3183,7 @@ ul.post-pagination li a {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 5px;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .experienced-trainer-area .single-item .img-holder .overlay-content ul li i {
@@ -3211,11 +3210,10 @@ ul.post-pagination li a {
 
 .experienced-trainer-area .single-item .img-holder .overlay-content .trainer-name .name span {
     color: #ffffff;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .experienced-trainer-area .single-item .img-holder .overlay-content .trainer-name .icon-holder i {
-    background: #f7f7f7;
     border: 1px solid #f2f0f0;
     font-size: 25px;
     height: 40px;
@@ -3231,7 +3229,7 @@ ul.post-pagination li a {
 .experienced-trainer-area .single-item .img-holder .overlay-content p {
     margin: 0 0 13px;
     color: #f7f7f7;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .experienced-trainer-area .single-item .img-holder .overlay-content .social-links a i {
@@ -3284,7 +3282,7 @@ ul.post-pagination li a {
 .experienced-trainer-area .single-item .content .trainer-name .name span {
     color: #a6c311;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .experienced-trainer-area .single-item .content .trainer-name .icon-holder i {
@@ -3302,7 +3300,7 @@ ul.post-pagination li a {
 
 .experienced-trainer-area .single-item .content p {
     margin: 0 0 13px;
-    font-family: 'Raleway', sans-serif;
+    font-family: Georgia, Serif, sans-serif;
     font-size: 14px;
     color: #9e9e9e;
     line-height: 24px;
@@ -3532,7 +3530,7 @@ ul.post-pagination li a {
     list-style: none;
     color: #f7f7f7;
     float: left;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     font-style: italic;
     line-height: 30px;
@@ -3602,13 +3600,13 @@ ul.post-pagination li a {
     font-size: 24px;
     color: #272727;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     margin: 0 0 14px;
 }
 
 .single-testimonial-carousel .testimonial-text-box p {
     color: #9e9e9e;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     line-height: 30px;
     margin: 0;
     font-size: 16px;
@@ -3835,7 +3833,7 @@ ul.post-pagination li a {
 
 .perfect-plan-right h2 {
     margin: 0 0 18px;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     color: #272727;
@@ -3847,7 +3845,7 @@ ul.post-pagination li a {
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
 }
 
 .perfect-plan-right ul {
@@ -3860,7 +3858,7 @@ ul.post-pagination li a {
     list-style: none;
     color: #9e9e9e;
     float: left;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     font-style: italic;
     line-height: 30px;
@@ -4043,12 +4041,12 @@ ul.post-pagination li a {
     font-size: 24px;
     color: #272727;
     font-weight: bold;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     margin: 0;
 }
 
 .single-project-item .text-box p {
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     font-size: 14px;
     color: #a6c311;
     margin: 0;
@@ -4107,7 +4105,7 @@ ul.post-pagination li a {
     color: #9e9e9e;
     font-weight: 500;
     line-height: 39px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     border-bottom: 1px solid #f7f7f7;
 }
 
@@ -4119,7 +4117,7 @@ ul.post-pagination li a {
     font-size: 16px;
     font-weight: 900;
     color: #272727;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .single-project-content .single-project-content h3 {
@@ -4493,7 +4491,7 @@ ul.post-pagination li a {
     font-size: 18px;
     line-height: 30px;
     color: #a6c311;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .fitness-services-boxed .single-fitness-service .single-fitness-service-details .bottom-box p span {
@@ -4579,7 +4577,7 @@ ul.post-pagination li a {
     font-size: 14px;
     color: #9e9e9e;
     line-height: 24px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     margin: 0;
 }
 
@@ -4786,13 +4784,13 @@ ul.post-pagination li a {
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     margin: 0;
 }
 
 .fitness-video-area .right-text p {
     font-size: 14px;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     color: #9e9e9e;
     line-height: 24px;
     margin: 0;
@@ -4984,7 +4982,7 @@ ul.post-pagination li a {
     font-size: 14px;
     line-height: 30px;
     font-style: italic;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     margin-top: -2px;
 }
 
@@ -5217,7 +5215,6 @@ ul.post-pagination li a {
 }
 
 .pricing-table tbody tr td {
-    border: none;
     border: 2px solid #f7f7f7;
 }
 
@@ -5225,7 +5222,7 @@ ul.post-pagination li a {
     font-size: 18px;
     line-height: 41px;
     color: #9e9e9e;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .pricing-table tbody tr.button-row td:first-child {
@@ -5302,7 +5299,7 @@ ul.post-pagination li a {
     height: 38px;
     padding: 7px 23px;
     background: #a6c311;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     transition: background .4s ease;
 }
 
@@ -5396,7 +5393,7 @@ ul.post-pagination li a {
 
 .single-shop-cta .img-holder-3 .content-3 h2 {
     color: #222222;
-    font-family: "Raleway", sans-serif;
+    font-family: Georgia, serif, sans-serif;
     font-size: 30px;
     font-weight: 800;
     line-height: 45px;
@@ -5499,7 +5496,7 @@ ul.post-pagination li a {
 
 .single-product-item .img-holder .new-product p {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 65px;
@@ -5515,7 +5512,7 @@ ul.post-pagination li a {
 
 .single-product-item .img-holder .offer-product p {
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
@@ -5612,7 +5609,7 @@ ul.post-pagination li a {
     text-transform: capitalize;
     font-weight: normal;
     line-height: 44px;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .popular-shop-item .meta-info .select-box .bootstrap-select.btn-group .dropdown-toggle .caret {
@@ -5793,10 +5790,9 @@ ul.post-pagination li a {
 .product-content-box .content-box .location-box p {
     font-size: 14px;
     color: #272727;
-    margin: 0;
+    margin: 0 0 10px;
     font-weight: bold;
-    font-family: 'Roboto';
-    margin-bottom: 10px;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .product-content-box .content-box .location-box input {
@@ -5825,7 +5821,7 @@ ul.post-pagination li a {
     color: #a6c311;
     font-size: 14px;
     font-weight: 500;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     margin-left: 9px;
 }
 
@@ -5882,9 +5878,8 @@ ul.post-pagination li a {
     padding-left: 22px;
     padding-right: 22px;
     font-weight: bold;
-    font-family: 'Roboto';
-    background: url(../img/resources/texture/strip.png) repeat;
-    background-color: #f7f7f7;
+    font-family: Verdana, Arial, sans-serif;
+    background: #f7f7f7 url(../img/resources/texture/strip.png) repeat;
     transition: all 0.5s ease;
 }
 
@@ -5917,7 +5912,7 @@ ul.post-pagination li a {
     font-size: 16px;
     line-height: 24px;
     color: #9e9e9e;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .product-tab-box .tab-content #description ul li {
@@ -6167,7 +6162,7 @@ ul.post-pagination li a {
     color: #f7f7f7;
     font-weight: 400;
     line-height: 34px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     transition: all .3s ease;
 }
 
@@ -6229,7 +6224,7 @@ ul.post-pagination li a {
     margin: 0;
     line-height: 20px;
     color: #f7f7f7;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     transition: all .3s ease;
 }
@@ -6246,7 +6241,7 @@ ul.post-pagination li a {
 
 .single-footer-widget ul.recent-news li .content p {
     color: #f7f7f7;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
@@ -6261,7 +6256,7 @@ ul.post-pagination li a {
 .single-footer-widget ul.recent-news li .content span {
     color: #f7f7f7;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .single-footer-widget ul.contact {
@@ -6275,7 +6270,7 @@ ul.post-pagination li a {
     list-style: none;
     border-bottom: 1px solid #1c1c1c;
     color: #f7f7f7;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 12px;
@@ -6338,7 +6333,7 @@ ul.post-pagination li a {
 
 .footer-bottom-area .footer-bottom .copy-right p {
     color: #f7f7f7;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     line-height: 27px;
     margin: 0;
@@ -6348,10 +6343,10 @@ ul.post-pagination li a {
 }
 .footer-bottom-area .footer-bottom .copy-right a {
     color: #f7f7f7;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     line-height: 27px;
-    margin: 0px 10px 0px 0px;
+    margin: 0 10px 0 0;
     padding: 13px 0 14px 20px;
     position: relative;
     z-index: 9;
@@ -6413,7 +6408,7 @@ ul.post-pagination li a {
 
 .inner-banner p {
     margin: 17px 0 0;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     font-size: 18px;
     line-height: 30px;
     color: #ffffff;
@@ -6916,7 +6911,7 @@ ul.post-pagination li a {
     margin: 0;
     line-height: 20px;
     color: #f7f7f7;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     transition: all .3s ease;
 }
@@ -6933,7 +6928,7 @@ ul.post-pagination li a {
 
 .single-sidebar.post-widget ul.recent-news li .content p {
     color: #272727;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
@@ -6948,7 +6943,7 @@ ul.post-pagination li a {
 .single-sidebar.post-widget ul.recent-news li .content span {
     color: #a6c311;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .single-sidebar.price-filter .range-slider-price {
@@ -6978,7 +6973,7 @@ ul.post-pagination li a {
     font-size: 16px;
     color: #9e9e9e;
     text-transform: capitalize;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -6988,7 +6983,7 @@ ul.post-pagination li a {
     width: 50px;
     font-size: 16px;
     color: #9e9e9e;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -7048,7 +7043,7 @@ ul.post-pagination li a {
     font-weight: 700;
     line-height: 16px;
     margin: 3px 0 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .single-blog-post .img-holder img {
@@ -7104,7 +7099,7 @@ ul.post-pagination li a {
     background: #f7f7f7 url(../img/resources/texture/strip.png) repeat;
     color: #9e9e9e;
     display: block;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
     margin: 0 4px;
@@ -7153,7 +7148,7 @@ ul.post-pagination li a {
     background: #f7f7f7 url(../img/resources/texture/strip.png) repeat;
     color: #272727;
     display: inline-block;
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-weight: 700;
     height: 50px;
     padding: 13px 29px;
@@ -7269,7 +7264,7 @@ ul.post-pagination li a {
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    font-family: 'Raleway';
+    font-family: Georgia, Serif, sans-serif;
     color: #a6c311;
 }
 
@@ -7483,7 +7478,7 @@ ul.post-pagination li a {
 .contact-info-box .text-box p {
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     color: #9e9e9e;
     font-weight: normal;
 }
@@ -7534,7 +7529,7 @@ ul.post-pagination li a {
 .cart-table .cart-header {
     position: relative;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     text-transform: uppercase;
     font-size: 18px;
     border-radius: 7px;
@@ -7561,7 +7556,7 @@ ul.post-pagination li a {
     font-size: 16px;
     font-weight: bold;
     color: #aaaaaa;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .cart-table tbody tr .qty {
@@ -7733,7 +7728,7 @@ ul.post-pagination li a {
 .cart-section .totals-table {
     position: relative;
     border: 1px solid #f8f8f8;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 .cart-section .totals-table .col {
@@ -7746,7 +7741,7 @@ ul.post-pagination li a {
 }
 
 .cart-section .totals-table .col-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     color: #353535;
     border-right: 1px solid #f8f8f8;
@@ -7915,7 +7910,7 @@ ul.post-pagination li a {
     margin: 0;
     font-size: 14px;
     color: #9e9e9e;
-    font-family: 'Roboto';
+    font-family: Verdana, Arial, sans-serif;
     /* line-height: 45px;*/
 }
 
