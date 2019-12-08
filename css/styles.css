@@ -2214,12 +2214,8 @@ ul.post-pagination li a {
     background: #272727;
 }
 
-.fitness-care-gym-area .single-item  .button a.black:hover {
-    /*background: #a6c311;*/
-}
-
 .fitness-care-gym-area .single-item .right-box p {
-    font-family: Georgia, Serif, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     color: #222;
     line-height: 24px;
@@ -6384,6 +6380,11 @@ ul.post-pagination li a {
  *   28. Inner banner styles         *
  *  -------------------------------- */
 
+
+/** -------------------------------- *
+ *   29. Inner banner styles         *
+ *  -------------------------------- */
+
 .inner-banner {
     padding: 77px 0;
 }
@@ -6410,14 +6411,10 @@ ul.post-pagination li a {
     margin: 17px 0 0;
     font-family: Verdana, Arial, sans-serif;
     font-size: 18px;
+    text-align: center;
     line-height: 30px;
     color: #ffffff;
 }
-
-
-/** -------------------------------- *
- *   29. Inner banner styles         *
- *  -------------------------------- */
 
 .bread-cumb {
     background: #ffffff url(../img/resources/texture/strip.png) repeat;
@@ -6578,7 +6575,7 @@ ul.post-pagination li a {
 
 .single-faq-box h3:before {
     content: 'Q';
-    font-family: 'Lora';
+    font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
     color: #EBEBEB;
     position: absolute;
