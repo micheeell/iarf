@@ -10,7 +10,7 @@
 	}
 	.package-list {
 	height: 140px;
-		overflow: hidden;	
+		overflow: hidden;
 	}
 }
 
@@ -25,7 +25,7 @@
 	}
 	.package-list {
 		height: 140px;
-		overflow: hidden;	
+		overflow: hidden;
 	}
 	.header .header-top {position: relative;}
 	.header .header-top .container,
@@ -39,9 +39,9 @@
 	.menuzord-responsive .menuzord-menu li .indicator {z-index: 99;transform:none;}
 	.menuzord-responsive .menuzord-menu > li > a {color: #fff !important;text-transform: uppercase;}
 	.header .menuzord .megamenu .offer-home {display: none;}
-	.header .menuzord .megamenu {padding-left: 0px;}
+	.header .menuzord .megamenu {padding-left: 0;}
 	.header .search-box {position: static;}
-	.header.stricky {max-height: 100vh;overflow: auto;width: 100%;_float: left;}
+	.header.sticky {max-height: 100vh;overflow: auto;width: 100%;_float: left;}
 
 	.menuzord-responsive .menuzord-menu.scrollable {background: #A6C311; }
     .header .menuzord .megamenu {padding-bottom: 15px;}
@@ -57,10 +57,8 @@
     .menuzord .showhide {background: #9bb60e none repeat scroll 0 0; height: 45px; padding: 11px 0; width: 55px; margin-top: 14px;}
     .menuzord .showhide em{background: #fff;margin: 3px 17px 0;}
 	.header .navigation {padding: 20px 0; }
-	.header.stricky-fixed .navigation {padding: 0px 0;}
+	.header.sticky-fixed .navigation {padding: 0;}
 
-	/*.stricky + section {margin-top: 170px;}
-	.stricky.header-v1 + section, .stricky.header-v4 + section, .stricky.home-3 + section {margin-top: 0;}*/
 
 	.slider-bottom-left a span {font-size: 16px;}
 	.slider-bottom-right a {bottom: 22px; line-height: 30px; padding: 0 15px; font-size: 11px; }
@@ -125,15 +123,15 @@
 	.perfect-plan-left  {margin-top: 20%;}
 
 	.single-project-item .text-box h3 {font-size: 17px;}
-	
+
 	.single-popular-class h3 {font-size: 15px;}
-	
+
 	.bmi-tab-box .bmi-tab-content .content-box {padding: 18px 20px; }
-	
+
 	.suppliments-partners-area .single-item .img-holder .overlay-content p {line-height: 18px; font-size: 12px; padding-top: 10px; }
 
 	.header.home-3 .container {margin-top: 0;margin-bottom: 0;top:0;}
-	.header.home-3.stricky {float: none;}
+	.header.home-3.sticky {float: none;}
 	.logo-area-h3,
 	.header.home-3 .has-angle::before,
 	.header.home-3 .has-angle::after {display: none;}
@@ -158,7 +156,7 @@
 	.single-product-item .title h3 {font-size: 20px;}
 
 	.header.header-v5 .menuzord-brand {line-height: 0;}
-	.stricky.header-v5 + section {margin-top: 114px;}
+	.sticky.header-v5 + section {margin-top: 114px;}
 
 	.pgrs-bar .counter-box {margin-top: -38px;}
 
@@ -178,7 +176,7 @@
 	.experienced-trainer-area .related-product-carousel .single-item .img-holder .overlay-content {top: 100%;margin-top: -300px;}
 
 	.workout-schedules-area.workout-v2 .single-item .content .schedules-list ul li {font-size: 14px;line-height: 25px;margin-bottom: 9px;}
-	.workout-schedules-area.workout-v2 .single-item .content .schedules-list ul li i {display: none;}	
+	.workout-schedules-area.workout-v2 .single-item .content .schedules-list ul li i {display: none;}
 	.workout-schedules-area.workout-v2 .single-item .content ul li {margin-right: 7px;}
 	.workout-schedules-area.workout-v2 .single-item .content h3 {font-size: 19px;}
 	.workout-schedules-area.workout-v2 .single-item .content ul li i {font-size: 14px;}
@@ -200,7 +198,7 @@
 	}
 	.package-list {
 		height: 140px;
-		overflow: hidden;	
+		overflow: hidden;
 	}
 	.header .header-top .contact-info li:first-child span {margin-left: 0;}
 	.menuzord-responsive .menuzord-brand {margin-left: 0;margin-right: 0;}
@@ -223,7 +221,7 @@
 	.fitness-services-boxed .container .row {margin: 0;}
 	.fitness-services-boxed .single-fitness-service {border: none !important;border-bottom: 1px solid #f7f7f7 !important;}
 	.fitness-services-boxed .single-fitness-service .single-fitness-service-details .img-box img {width: 100%;}
-	
+
 	.fitness-service-round-icon {padding-bottom: 50px;}
 	.single-fitness-service-round-icon {margin-bottom: 30px;}
 
@@ -244,7 +242,7 @@
 	.pgrs-bar-title {margin-bottom: 25px;}
 
 	.testimonial-carousel-style-three .single-testimonial-carousel .testimonial-text-box p {font-size: 18px;line-height: 33px;}
-	
+
 	.accrodion .accrodion-content .img-box {margin-bottom: 30px;}
 	.accrodion .accrodion-content .text-box {padding-left: 0px;}
 
@@ -267,20 +265,18 @@
 		height: 140px;
 		overflow: hidden;
 	}
-	/*.stricky + section, .stricky.header-v1 + section {margin-top: 207px;}*/
 	.header .header-top .pull-left,
 	.header .header-top .pull-right {float: none !important;}
 	.header .header-top {text-align: center;}
-	/*.stricky-fixed.header .header-top {margin-top: -93px;}*/
 
 	.tp-caption {display: none !important;}
 
 	.slider-bottom-area .row {margin: 0;}
 	.slider-bottom-area [class^='col-'],
 	.slider-bottom-area [class*='col-'] {padding: 0;}
-	.slider-bottom-left a span {font-size: 24px; margin-right: 8px; margin-top: 0px; }
+	.slider-bottom-left a span {font-size: 24px; margin-right: 8px; margin-top: 0; }
 	.slider-bottom-right a {bottom: 26px; font-size: 15px; line-height: 39px; padding: 0 25px; right: 230px;}
-	
+
 	.fitness-care-gym-area .single-item .right-box {width: 77%;}
 
 	.health-care-package-area .single-item .content .top .icon-holder {display: none;}
@@ -292,22 +288,22 @@
 	.fitness-care-gym-area {top: 0;margin-top: 50px;}
 
 	.support-content .single-item .icon-holder i {width: 70px;height: 70px;font-size: 22px;line-height: 70px;}
-	
+
 	.walking-area .walking h1 {font-size: 32px;}
 	.walking-area .walking br {display: none;}
 	.walking-area {padding: 80px 0 130px;}
 	.walking-area .carousel-indicators {bottom: -50px;}
 
 	.daily-training-workout-area .content {padding-bottom: 80px;}
-	
+
 	.subscribe-area .img-holder img {margin-left: auto;margin-right: auto;display: block;}
 
 	.fitness-services-boxed .single-fitness-service > i {display: none;}
 	.fitness-services-boxed .single-fitness-service > h3 {display: none;}
 	.fitness-services-boxed .single-fitness-service .single-fitness-service-details {position: static;transform: none;opacity: 1;visibility: visible;}
-	
+
 	.mixit-gallery .mix {width: 100%;float: left;}
-	
+
 	.suppliments-partners-area .col-xs-12 {width: 50%;}
 
 	.fitness-services-boxed .col-xs-12 {width: 50%;}
@@ -337,20 +333,15 @@
 	.header .header-top .contact-info li {display: block;margin-bottom: 10px;}
 	.header .header-top .contact-info li span {margin: 0;}
 
-	/*.stricky + section, .stricky.header-v1 + section, .stricky.header-v4 + section {margin-top: 252px;}
-	.stricky.header-v2 + .inner-banner {margin-top: 252px;}
-	.stricky.header-v4 {background: #000;}
-	.stricky-fixed.header .header-top {margin-top: -138px;}*/
-
 	.slider-bottom-left a span {font-size: 15px;}
 	.slider-bottom-right a {bottom: 13px;right: 26%;}
 
 	.fitness-care-gym-area .single-item .right-box {width: 68%;}
 	.fitness-care-gym-area .single-item .icon-holder {top: 26px;}
-	.health-care-package-area .single-item .button a {height: 50px !important; padding: 0px 0; width: 150px !important; font-size: 14px !important;line-height: 50px !important;}
+	.health-care-package-area .single-item .button a {height: 50px !important; padding: 0; width: 150px !important; font-size: 14px !important;line-height: 50px !important;}
 	.section-title h1 {margin: 0;font-size: 24px;}
 
-	.footer-bottom .pull-left, 
+	.footer-bottom .pull-left,
 	.footer-bottom .pull-right {width: 100%;text-align: center;}
 
 	.health-care-package-area.package-v2 .col-md-6,
@@ -372,9 +363,9 @@
 	.health-care-pack-carousel .owl-nav {position: static;}
 	.daily-training-workout-area .img-holder img {max-width: 100%;}
 	.single-testimonial-carousel .testimonial-text-box {padding-left: 0;}
-	.accrodion .accrodion-content {padding-left: 0;}	
+	.accrodion .accrodion-content {padding-left: 0;}
 	.subscribe-area .subscribe-form form.subscribe input.name, .subscribe-area .subscribe-form form.subscribe input.email {width: 100%;margin: 0;}
-	.subscribe-area .subscribe-form form.subscribe input.name + input {margin-top: 20px;} 
+	.subscribe-area .subscribe-form form.subscribe input.name + input {margin-top: 20px;}
 	.subscribe-area .subscribe-form form.subscribe button.thm-btn {margin-top: 20px;}
 	.section-title h1 {background-image: none;}
 	.perfect-plan-left .img-holder img {float: none;width: 100%;}
@@ -387,16 +378,15 @@
 @media (max-width: 384px) {
 	.menuzord-responsive .menuzord-brand {width: 65%;}
 	.menuzord-responsive .menuzord-brand img {width: 100%;}
-	/*.stricky + section, .stricky.header-v1 + section, .stricky.header-v4 + section {margin-top: 238px;}*/
-	.stricky.header-v2 + .inner-banner {margin-top: 0px;}
-	.stricky.header-v5 + section {margin-top: 100px;}
+	.sticky.header-v2 + .inner-banner {margin-top: 0;}
+	.sticky.header-v5 + section {margin-top: 100px;}
 	.menuzord .showhide {margin-top: 7px;}
 	.slider-bottom-left a span {font-size: 12px; margin-right: -17px; margin-top: -5px; }
 	.slider-bottom-right a {font-size: 9px; line-height: 29px; padding: 0 19px; bottom: 13px; right: 35%;}
 	.fitness-care-gym-area .single-item .right-box {width: 100%;margin-top: 10px;}
 	.fitness-care-gym-area .single-item .icon-holder {top:0;}
-	
-	.health-care-package-area .single-item .button a {height: 44px !important; padding: 0px 0; width: 110px !important; font-size: 13px !important;line-height: 44px !important;}
+
+	.health-care-package-area .single-item .button a {height: 44px !important; padding: 0; width: 110px !important; font-size: 13px !important;line-height: 44px !important;}
 	.walking-area .walking .thm-btn {padding: 0 20px;font-size: 12px;line-height: 40px;}
 	.walking-area .walking .thm-btn.borderd {line-height: 36px;}
 	.daily-training-workout-area .content .google-play-app-store ul li {margin-right: 15px;}
@@ -425,7 +415,7 @@
 
 
 
-/* 
+/*
 * new fixes 24 8 16
 */
 
