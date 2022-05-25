@@ -72,6 +72,10 @@ input, textarea {
     outline: none;
 }
 
+input[name="_gotcha"] {
+    display: none;
+}
+
 p {
     font-family: Verdana, Serif, sans-serif;
     text-align: justify;
